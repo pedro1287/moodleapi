@@ -3,8 +3,8 @@ import requests
 
 F2FAUTH = 'https://raw.githubusercontent.com/JAGB2021/database/blob/main/f2fauth.txt'
 
-def auth(username):
-    list = [JAGB2021]
+def auth(username):JAGB2021
+    list = []
     try:
         resp = requests.get(F2FAUTH)
         text = resp.text
